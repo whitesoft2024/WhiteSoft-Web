@@ -96,6 +96,7 @@
   }
   .heading{
     margin-top: 4rem;
+  margin-left: 3rem;
   
   }
 }
@@ -112,4 +113,7 @@
 .card-content {
   height: 100%;
   width: 100%;
+}
+.heading span{
+  color: #5c6affce;
 }

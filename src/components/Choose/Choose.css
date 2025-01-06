@@ -1,0 +1,61 @@
+/* Container styling */
+.choose-us-container {
+    padding: 50px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    color: #333;
+  }
+  
+  /* Heading styles */
+  .choose-us-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .choose-us-text h1 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #000;
+  }
+  
+  .choose-us-text h1 span {
+    color: #4355f4; /* Orange highlight */
+  }
+  
+  /* Paragraph styles */
+  .choose-us-text p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  .choose-us-text strong {
+    color: #4355f4; 
+    font-weight: bold;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .choose-us-container {
+      padding: 20px;
+    }
+  
+    .choose-us-text h1 {
+      font-size: 28px;
+    }
+  
+    .choose-us-text p {
+      font-size: 14px;
+    }
+  }
+  

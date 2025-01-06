@@ -5,10 +5,10 @@ const Hero = () => {
     <section className="hero-container">
     
       <div className="hero-content">
-        <h1>WHITESOFT ADS & IT SUPPORT LLP</h1>
+        <h1><span className="highlight">WHITESOFT ADS </span> & IT SUPPORT LLP</h1>
        
         <p>
-          Welcome to WHITESOFT ADS, your destination for all your IT needs in
+          Welcome to <span className="highlight">WHITESOFT ADS</span>, your destination for all your IT needs in
           Kerala. As the leading IT company in Kerala, we are dedicated to
           giving you a wide range of services including website development, app
           development, digital marketing, search engine optimization services,

@@ -4,14 +4,20 @@ import Navbar from "./components/Navbar/Navbar";
 import Main from "./components/Main/Main";
 import Services from "./components/Services/Services";
 import Technology from "./components/Technology/Tech";
+import Choose from "./components/Choose/Choose";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 const App = () => {
   return (
     <>
       <Navbar />
-       <div className="container">
+      <div className="container">
         <Main />
-        <Services/>
-        <Technology/>
+        <Services />
+        <Choose />
+        <Technology />
+        <Contact />
+        <Footer/>
       </div>
     </>
   );

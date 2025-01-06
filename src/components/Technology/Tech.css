@@ -30,7 +30,7 @@
   .carousel-track {
     display: flex;
     gap: 20px;
-    animation: slide 20s linear infinite;
+    animation: slide 40s linear infinite;
     will-change: transform;
   }
   

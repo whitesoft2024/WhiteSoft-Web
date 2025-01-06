@@ -1,0 +1,122 @@
+/* Container styling */
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+       height: 100vh;
+  }
+  
+  /* Text section */
+  .contact-text h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .contact-text h1 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #000;
+  }
+  
+  .contact-text h1 span {
+    color: #4355f4;   }
+  
+  /* Form styling */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    background: #f9f9f9;
+  }
+  
+  .contact-form textarea {
+    height: 120px;
+    resize: none;
+  }
+  
+  .contact-form button {
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(to right, #5085ff, #4c00ff);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+  .contact-form button span {
+    font-size: 20px;
+    transition: transform 0.2s ease;
+  }
+  
+  .contact-form button:hover span {
+    transform: translateX(5px);
+  }
+  
+  .contact-form button:hover {
+    opacity: 0.9;
+  }
+  .shade{
+     content: " ";
+    width: 15rem;
+    height: 15rem;
+    border-radius: 15.125rem;
+    background: #73a8e8;
+    position: absolute;
+    z-index: -1;
+    filter:blur(200px);
+}
+
+.shade{
+     content: " ";
+    width: 15rem;
+    height: 15rem;
+    border-radius: 15.125rem;
+    background: #73a8e8;
+    position: absolute;
+    z-index: -1;
+    filter:blur(200px);
+}
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: auto;
+    padding: 20px;
+  }
+
+  .contact-text {
+    margin-bottom: 30px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .contact-text h1 {
+    font-size: 32px;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+}
