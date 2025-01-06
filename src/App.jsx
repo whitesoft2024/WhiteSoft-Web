@@ -7,9 +7,10 @@ import Technology from "./components/Technology/Tech";
 import Choose from "./components/Choose/Choose";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import { Routes } from "react-router-dom";
 const App = () => {
   return (
-    <>
+   <>
       <Navbar />
       <div className="container">
         <Main />
@@ -19,7 +20,7 @@ const App = () => {
         <Contact />
         <Footer/>
       </div>
-    </>
+      </>
   );
 };
 

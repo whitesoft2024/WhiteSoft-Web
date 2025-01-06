@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Footer.css";
 
 const Footer = () => {
@@ -24,8 +25,7 @@ const Footer = () => {
             <p>
               Whitesoft Ads & It Support LLP
               <br />
-              Identification Number:(LLPIN)ACB-6550
-              <br />
+              
               KAKKANAD Ernakulam,
               <br />
               Kerala-682037
@@ -35,7 +35,9 @@ const Footer = () => {
         <div className="footer-column">
           <h3>Quick Links</h3>
           <ul>
-            <li>Home</li>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
             <li>About</li>
             <li>Services</li>
             <li>Portfolio</li>
@@ -69,8 +71,8 @@ const Footer = () => {
       <hr className="footer-divider" />
       <div className="footer-copyright">
         <p>
-          Copyright © 2023 - Whitesoft Ads & It Support LLP. All rights
-          reserved.
+          Copyright © 2023 - <span>Whitesoft Ads & It Support LLP</span>. All
+          rights reserved.
         </p>
       </div>
     </footer>
