@@ -1,0 +1,58 @@
+/* Terms and Conditions Styles */
+.terms-container {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.8;
+  }
+  
+  .terms-container h1 {
+    font-size: 2.5rem;
+  margin-bottom: 20px;
+  background: linear-gradient(to right, #5085ff, #4c00ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  }
+  
+  .terms-section {
+    margin-bottom: 30px;
+  }
+  
+  .terms-section h2 {
+    font-size: 1.8rem;
+    color: #5085ff;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+  }
+  
+  .terms-section p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .terms-container a {
+    color: #4c00ff;
+    text-decoration: none;
+  }
+  
+  .terms-container a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .terms-container h1 {
+      font-size: 2rem;
+    }
+  
+    .terms-section h2 {
+      font-size: 1.5rem;
+    }
+  
+    .terms-section p {
+      font-size: 1rem;
+    }
+  }
+  

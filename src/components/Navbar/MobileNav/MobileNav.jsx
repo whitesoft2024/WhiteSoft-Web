@@ -19,7 +19,7 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
         onClick={() => toggleMenu()}
       >
         <div className="mobile-menu-container">
-          <img className="logo" src="./public/logo.png" alt="" />
+          <img className="logo" src="./logo.png" alt="" />
           <ul>
             <li>
               <a className="menu-item" onClick={() => handleScrollTo("home")}>
@@ -40,8 +40,8 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
               </a>
             </li>
             <li>
-              <Link className="menu-item" to="/career">
-                Career
+              <Link className="menu-item" to="/careers">
+                Careers
               </Link>
             </li>
             <li>

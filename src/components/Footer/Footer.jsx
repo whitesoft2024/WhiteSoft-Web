@@ -41,18 +41,28 @@ const Footer = () => {
           <h3>Quick Links</h3>
           <ul>
             <li onClick={() => handleScrollTo("home")}>Home</li>
-            <Link className="item" to="/about">
-              About
-            </Link>
+            <li>
+              <Link className="item" to="/about">
+                About
+              </Link>
+            </li>
             <li onClick={() => handleScrollTo("services")}>Services</li>
-            <li onClick={() => handleScrollTo("portfolio")}>Portfolio</li>
-            <Link className="item" to="/career">
-              Career
-            </Link>
-            <li onClick={() => handleScrollTo("events")}>Events</li>
+            <li>
+              <Link className="item" to="/careers">
+                Careers
+              </Link>
+            </li>
             <li onClick={() => handleScrollTo("contact")}>Contact Us</li>
-            <li>Terms & Conditions</li>
-            <li>Privacy Policy</li>
+            <li>
+              <Link className="item" to="/terms">
+                TermsandConditions
+              </Link>
+            </li>
+            <li>
+              <Link className="item" to="/privacy">
+                Privacy Policy
+              </Link>
+            </li>
           </ul>
         </div>
         <div className="footer-column">

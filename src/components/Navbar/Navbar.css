@@ -1,5 +1,5 @@
 .nav-wrapper{
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.055);
     padding: 0.5rem 0;
     position: sticky;
     top: 0;
@@ -84,7 +84,6 @@
     .menu-btn {
         width: 2.5rem;
         height: 2.5rem;
-        font-size: 1.5rem;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -100,7 +99,7 @@
     .menu-btn:hover{
         color: #a993fe;
         background: #000;
-        border:1px solid  #a993fe;
+        outline: 1.5px solid  #a993fe;
     }
     
     @media(max-width:769px){

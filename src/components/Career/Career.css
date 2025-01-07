@@ -1,0 +1,9 @@
+h2{
+    margin-top: 2rem;
+    font-size: 2.5rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(to right, #5085ff, #4c00ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}

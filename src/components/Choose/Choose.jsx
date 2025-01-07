@@ -25,7 +25,7 @@ const WhyChooseUs = () => {
         <p>
           We possess a deep understanding of local market dynamics and use a 
           data-driven approach to secure prominent positions in search results. 
-          As a <strong>top IT company in Kerala</strong>, IMIT Park offers top digital 
+          As a <strong>top IT company in Kerala</strong>, <strong>WhiteSoft ADS </strong> offers top digital 
           marketing solutions for your business and boosts your results.
         </p>
       </div>
