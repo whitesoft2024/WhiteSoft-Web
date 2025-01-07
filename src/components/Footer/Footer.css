@@ -130,4 +130,12 @@
   .footer-copyright p:hover {
     text-decoration: underline;
     color: #4355f4;}
-  
+  .item {
+        text-decoration: none;
+        color: #fff;
+        transition: color 0.3s ease;
+      }
+      
+      .item:hover {
+        color: #4355f4;
+      }

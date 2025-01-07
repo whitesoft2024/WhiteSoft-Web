@@ -5,38 +5,41 @@ const About = () => {
   return (
     <section id="about" className="about-whitesoft">
       <div className="container">
-        
-        <h1 id="about-intro">About Whitesoft Ads & IT Support LLP</h1>
-        <p>
+        <div className="intro">
+        <h1 id="about-intro"><span>About</span> Whitesoft Ads</h1>
+        <p className="intro-p">
           A team of innovative minds and technology enthusiasts dared to dream
           big. At Whitesoft, we believe that big dreams pave the way for
           remarkable achievements. Our mission is to elevate Kakkanad,
           Ernakulam, to a prominent IT and Advertising hub that resonates on a
           global scale.
         </p>
+        </div>
+        <div className="shade"></div>
+        <div className="vision">
 
-    
-        <h2 id="vision">Vision</h2>
-        <p>
+        <img className="vision-img" src="./foot.png" alt="" />
+        <div 
+        className="vision-text">
+        <h2 id="vision-h2">Vision</h2>
+        <p className="vision-p">
           <strong>This is a Vision of Excellence.</strong>
-        </p>
+        </p></div>
         <p>
           Whitesoft Ads & IT Support LLP is driven by a commitment to provide
           top-notch IT solutions and advertising services to businesses
           worldwide. Our mantra, "<strong>Local is the new Global</strong>,"
           reflects our dedication to showcasing the immense potential of local
           talent while achieving international acclaim.
-        </p>
-        <p>
+        
           Established in 2023, our dream is not confined by borders. Whitesoft
           is poised to stamp its mark in the global arena, delivering unmatched
           quality and innovation in IT support and advertising solutions.
         </p>
-
-        
+        </div>
         <h2 id="journey">Our Journey</h2>
         <p>
-          Whitesoft’s journey is a testament to our dedication and vision.
+          Whitesoft's journey is a testament to our dedication and vision.
           Starting from our state-of-the-art workspace in Kakkanad, we’ve built
           a strong foundation for delivering impactful projects. Our journey is
           marked by milestones of success and continuous expansion to
@@ -48,7 +51,6 @@ const About = () => {
           innovation.
         </p>
 
-        
         <h2 id="workspace">Our Workspace</h2>
         <p>
           The heart of Whitesoft Ads & IT Support LLP lies in our workspace—a
@@ -62,7 +64,6 @@ const About = () => {
           collaborate, innovate, and deliver world-class solutions.
         </p>
 
-        
         <h2 id="promise">Our Promise</h2>
         <ul>
           <li>
@@ -77,8 +78,8 @@ const About = () => {
           </li>
         </ul>
         <p>
-          At Whitesoft, we don’t just deliver solutions; we create experiences,
-          drive transformations, and build lasting partnerships. Let’s craft the
+          At Whitesoft, we don't just deliver solutions; we create experiences,
+          drive transformations, and build lasting partnerships. Let's craft the
           future together!
         </p>
       </div>

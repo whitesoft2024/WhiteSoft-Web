@@ -3,7 +3,7 @@ import "./Navbar.css";
 import { IoMenu } from "react-icons/io5";
 import { FaWindowClose } from "react-icons/fa";
 import MobileNav from "./MobileNav/MobileNav.jsx";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -37,12 +37,9 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a
-                className="menu-item"
-                onClick={() => handleNavigation("about")}
-              >
+              <Link className="menu-item" to="/about">
                 About
-              </a>
+              </Link>
             </li>
             <li>
               <a
@@ -53,12 +50,9 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a
-                className="menu-item"
-                onClick={() => handleNavigation("career")}
-              >
+            <Link className="menu-item" to="/career">
                 Career
-              </a>
+              </Link>
             </li>
             <li>
               <a

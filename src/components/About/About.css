@@ -4,28 +4,55 @@
     font-family: 'Arial', sans-serif;
     color: #333;
   }
+  .shade{
+     content: " ";
+    width: 15rem;
+    height: 15rem;
+    border-radius: 15.125rem;
+    background: #73a8e8;
+    position: absolute;
+    z-index: -1;
+    filter:blur(200px);
+}
+.vision{
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 3rem;
   
+}
+.vision-img{
+  width: 20rem;
+  height: 20rem;
+ }
+.vision-p{
+  width: 15rem;
+}
+
   .about-whitesoft .container {
     max-width: 800px;
     margin: 0 auto;
     text-align: left;
   }
   
-  .about-whitesoft h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    color: #0056b3;
-    text-align: center;
-  }
-  
-  .about-whitesoft h2 {
-    font-size: 2rem;
-    margin-top: 30px;
-    margin-bottom: 15px;
-    color: #0056b3;
-    border-bottom: 2px solid #007bff;
-    padding-bottom: 5px;
-  }
+/* Gradient Heading Styles */
+.about-whitesoft h1, 
+.about-whitesoft h2 {
+  font-size: 2.5rem; /* Adjust size as needed */
+  margin-bottom: 20px;
+  background: linear-gradient(to right, #5085ff, #4c00ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   /* Optional for alignment */
+}
+
+.about-whitesoft h2 {
+  font-size: 2rem;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
   
   .about-whitesoft p {
     font-size: 1.1rem;
@@ -52,6 +79,8 @@
   }
   
   .about-whitesoft a {
+    color: linear-gradient(to right, #5085ff, #4c00ff);
+   
     color: #007bff;
     text-decoration: none;
   }
@@ -60,7 +89,6 @@
     text-decoration: underline;
   }
   
-  /* Responsive Design */
   @media (max-width: 768px) {
     .about-whitesoft h1 {
       font-size: 2rem;
@@ -74,5 +102,51 @@
     .about-whitesoft ul li {
       font-size: 1rem;
     }
+    .intro{
+        display: flex;
+       justify-content: center;
+      gap: 2rem;
+      align-items: center;
+        color: #555;
+        flex-direction: column;
+     }
+     #about-intro{
+        font-size: 3rem;
+        margin-bottom: 15px;
+        color: #555;
+     }
+     .vision{
+      margin-top: 5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .vision-img{
+      width:15rem;
+      height:15rem;
+          }
+  }
+  @media screen and (max-width:1280px) {
+  
+ .intro{
+    display: flex;
+   justify-content: center;
+  gap: 2rem;
+  align-items: center;
+    color: #555;
+ }
+ .highlight{
+  color: #000000;
+}
+ #about-intro{
+    font-size: 3rem;
+    margin-bottom: 15px;
+width: 100%;
+ }
+ .intro-p {
+    margin-bottom: 3rem;
+    width: 100%;
+
+ }
   }
   

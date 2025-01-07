@@ -1,8 +1,11 @@
 import React from "react";
 import "./MobileNav.css";
+import { Link, useNavigate } from "react-router-dom";
 
 const MobileNav = ({ isOpen, toggleMenu }) => {
+  const navigate = useNavigate();
   const handleScrollTo = (id) => {
+    navigate("/");
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
@@ -24,9 +27,9 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
               </a>
             </li>
             <li>
-              <a className="menu-item" onClick={() => handleScrollTo("about")}>
+              <Link className="menu-item" to="/about">
                 About
-              </a>
+              </Link>
             </li>
             <li>
               <a
@@ -37,9 +40,9 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
               </a>
             </li>
             <li>
-              <a className="menu-item" onClick={() => handleScrollTo("career")}>
+              <Link className="menu-item" to="/career">
                 Career
-              </a>
+              </Link>
             </li>
             <li>
               <a
