@@ -32,10 +32,7 @@ const Navbar = () => {
           <img className="logo" src="./logo.png" alt="Logo" />
           <ul>
             <li>
-              <a
-                className="menu-item"
-                onClick={() => handleNavigation("home")}
-              >
+              <a className="menu-item" onClick={() => handleNavigation("home")}>
                 Home
               </a>
             </li>

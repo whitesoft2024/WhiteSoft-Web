@@ -99,7 +99,7 @@
   @media (max-width: 768px) {
     .footer-top {
       flex-direction: column;
-      text-align: center;
+      
     }
   
     .footer-bottom {

@@ -1,4 +1,8 @@
 /* Card container */
+#services {
+  margin-top: 4rem;
+ 
+}
 .service-card {
   position: relative;
   
@@ -88,6 +92,12 @@
 @media (min-width: 768px) {
   .cards-grid {
     grid-template-columns:1fr 1fr;
+  }
+  .heading{
+    margin-top: 4rem;
+    margin-left: 3rem;
+
+  
   }
 }
 @media (min-width: 1024px) {

@@ -3,6 +3,12 @@ import { Link } from "react-router-dom";
 import "./Footer.css";
 
 const Footer = () => {
+  const handleScrollTo = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <footer className="footer-container">
       <div className="footer-top">
@@ -25,7 +31,6 @@ const Footer = () => {
             <p>
               Whitesoft Ads & It Support LLP
               <br />
-              
               KAKKANAD Ernakulam,
               <br />
               Kerala-682037
@@ -35,15 +40,13 @@ const Footer = () => {
         <div className="footer-column">
           <h3>Quick Links</h3>
           <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>About</li>
-            <li>Services</li>
-            <li>Portfolio</li>
-            <li>Career</li>
-            <li>Events</li>
-            <li>Contact Us</li>
+          <li onClick={() => handleScrollTo("home")}>Home</li>
+            <li onClick={() => handleScrollTo("about")}>About</li>
+            <li onClick={() => handleScrollTo("services")}>Services</li>
+            <li onClick={() => handleScrollTo("portfolio")}>Portfolio</li>
+            <li onClick={() => handleScrollTo("career")}>Career</li>
+            <li onClick={() => handleScrollTo("events")}>Events</li>
+            <li onClick={() => handleScrollTo("contact")}>Contact Us</li>
             <li>Terms & Conditions</li>
             <li>Privacy Policy</li>
           </ul>
@@ -60,9 +63,8 @@ const Footer = () => {
         <div className="footer-column">
           <h3>Contact Info</h3>
           <ul>
-            <li>HR : +91 8593833370</li>
-            <li>Office : +91 8943627627</li>
-            <li>Landline : 0480 2991234</li>
+            <li>HR : +91 79945 84544 </li>
+            <li>Office : +91 95620 50524</li>
             <li>Email : whitesoftllp@gmail.com</li>
             <li>Email :whitesoft252@gmail.com </li>
           </ul>

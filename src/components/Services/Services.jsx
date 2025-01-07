@@ -24,7 +24,7 @@ function Services() {
               </div>
             </div>
 
-            <div className="service-card">
+            <div className="service-card" >
               <div className="card-content">
                 <div className="card-icon">
                   <img src="./mob.png" alt="" className="card-iconsize" />

@@ -15,14 +15,14 @@ const Main = () => {
           including website development, app development, digital marketing,
           search engine optimization services, media works, branding, and
           graphic designing. Our dedication to quality and technology sets us
-          apart, making WHITESOFT ADS your suitable IT companion.
+          apart, making <span className="highlight"> WHITESOFT ADS </span> your suitable IT companion.
         </p>
       </div>
 
       <div className="hero-img">
         <div>
           <div className="tech-icon"></div>
-          <img className="main-img" src="./logo.png" alt="" />
+          <img className="main-img" src="./main.png" alt="" />
         </div>
       </div>
     </section>

@@ -55,7 +55,7 @@
     color: white;
     background: linear-gradient(to right, #5085ff, #4c00ff);
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     display: flex;
@@ -67,6 +67,7 @@
   .contact-form button span {
     font-size: 20px;
     transition: transform 0.2s ease;
+    color: rgb(242, 238, 248);
   }
   
   .contact-form button:hover span {
