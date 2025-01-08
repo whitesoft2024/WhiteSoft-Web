@@ -68,10 +68,18 @@ const Footer = () => {
         <div className="footer-column">
           <h3>Services</h3>
           <ul>
-            <li>Web Development</li>
-            <li>Mobile App Development</li>
-            <li>Digital Marketing</li>
-            <li>UI/UX Designing</li>
+            <li><Link className="item" to="/web-development">
+            Web Development
+              </Link></li>
+            <li><Link className="item" to="/mobile-app">
+            Mobile App Development
+              </Link></li>
+            <li><Link className="item" to="/digital-marketing">
+            Digital Marketing
+              </Link></li>
+            <li><Link className="item" to="/ui-ux">
+            UI/UX Designing
+              </Link></li>
           </ul>
         </div>
         <div className="footer-column">
