@@ -5,7 +5,7 @@ const Main = () => {
     <section className="hero-container" id="home">
       <div className="hero-content">
         <h1>
-          <span className="highlight">WHITESOFT ADS </span> & IT SUPPORT LLP
+          <span className="hero-highlight">WHITESOFT ADS </span> & IT SUPPORT LLP
         </h1>
 
         <p>

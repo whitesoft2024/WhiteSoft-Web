@@ -13,6 +13,10 @@ import Terms from "./components/Terms/Terms";
 import Privacy from "./components/Privacy/Privacy";
 import ScrollToTop from "./components/Scroll/ScrollToTop";
 import Careers from "./components/Career/Career";
+import Web from "./components/Services/Web/web";
+import Mobile from "./components/Services/Mobile/Mobile";
+import Digital from "./components/Services/Digital/Digital";
+import Uiux from "./components/Services/Uiux/Uiux";
 
 const App = () => {
   return (
@@ -35,7 +39,11 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/privacy" element={<Privacy />} />
-        <Route path="/careers" element={<Careers/>} />
+        <Route path="/careers" element={<Careers />} />
+        <Route path="/web-development" element={<Web />} />
+        <Route path="/mobile-app" element={<Mobile />} />
+        <Route path="/digital-marketing" element={<Digital />} />
+        <Route path="/ui-ux" element={<Uiux />} />
       </Routes>
       <Footer />
     </>

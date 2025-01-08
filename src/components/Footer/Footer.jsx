@@ -80,7 +80,7 @@ const Footer = () => {
             <li>HR : +91 79945 84544 </li>
             <li>Office : +91 95620 50524</li>
             <li>Email : whitesoftllp@gmail.com</li>
-            <li>Email :whitesoft252@gmail.com </li>
+            <li>Email :whitesofthr@gmail.com </li>
           </ul>
         </div>
       </div>
