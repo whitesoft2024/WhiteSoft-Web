@@ -12,7 +12,8 @@ const Uiux = () => {
       </p>
       <div className="uiux-content">
         <div className="uiux-left">
-          <img src=" " alt="UI/UX Design" className="uiux-image" />
+          <div className="shade"></div>
+          <img src="./uiuxdev.png" alt="UI/UX Design" className="uiux-image" />
         </div>
         <div className="uiux-right">
           <h2>Creative Design Approach</h2>

@@ -33,11 +33,19 @@
   
   .digital-marketing-image {
     width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 10px;
+    height: 100%;
+    
   }
-  
+  .shade{
+     content: " ";
+    width: 15rem;
+    height: 15rem;
+    border-radius: 15.125rem;
+    background: #73a8e8;
+    position: absolute;
+    z-index: -1;
+    filter:blur(200px);
+}
   .digital-marketing-right {
     flex: 2;
   }
@@ -53,4 +61,90 @@
     line-height: 1.8;
     color: #444;
   }
+.digital-marketing-bottom{
+    margin-top: 2rem;
+}
   
+  .digital-marketing-bottom h2 {
+    margin-top: 1.5rem;
+    color: #000;
+    font-size: 1.5rem;
+  }
+  
+  .digital-marketing-bottom p {
+    margin-top: 0.5rem;
+    line-height: 1.8;
+    color: #444;
+  }   
+  
+  .digital-marketing-bottom ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .digital-marketing-bottom ul li {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .digital-marketing-bottom strong {
+    color: #000;
+  }
+  
+  .digital-marketing-bottom a {
+    color: linear-gradient(to right, #5085ff, #4c00ff);
+    text-decoration: none;
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .digital-marketing-container {
+      padding: 1rem;
+    }
+  
+    .digital-marketing-container h1 {
+      font-size: 2rem;
+    }
+  
+    .digital-marketing-content {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  
+    .digital-marketing-image {
+      margin-top: 0;
+      width: 100%;
+      height: auto;
+    }
+  
+    .digital-marketing-right h2 {        
+      font-size: 1.2rem;
+    }
+  
+    .digital-marketing-right p {        
+      font-size: 1rem;
+    } 
+    
+    .shade{
+     content: " ";
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10.125rem;
+    background: #73a8e8;
+    position: absolute;
+    z-index: -1;
+    filter:blur(200px);
+    } 
+    
+    .digital-marketing-bottom h2 {        
+      font-size: 1.2rem;
+    }
+  
+    .digital-marketing-bottom p {        
+      font-size: 1rem;
+    } 
+    
+  }

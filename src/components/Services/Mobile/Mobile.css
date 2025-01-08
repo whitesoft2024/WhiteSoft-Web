@@ -2,8 +2,17 @@
     padding: 2rem;
     font-family: Arial, sans-serif;
     color: #333;
-    background-color: #fff;
   }
+  .shade{
+     content: " ";
+    width: 15rem;
+    height: 15rem;
+    border-radius: 15.125rem;
+    background: #73a8e8;
+    position: absolute;
+    z-index: -1;
+    filter:blur(200px);
+}
   
   .app-development-container h1 {
     font-size: 2.5rem;
@@ -25,10 +34,10 @@
   }
   
   .app-image {
-    width: 100%;
+    margin-top: 1rem;
+    width: auto;
     height: auto;
-    object-fit: cover;
-    border-radius: 10px;
+    
   }
   
   .app-development-right {
@@ -60,4 +69,51 @@
     margin-top: 0.5rem;
     line-height: 1.8;
   }
+  @media screen and (max-width: 768px) {
+    .app-development-container {
+      padding: 1rem;
+    }
   
+    .app-development-container h1 {
+      font-size: 2rem;
+    }
+  
+    .app-development-content {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  
+    .app-image {
+      margin-top: 0;
+      width: auto;
+      height: auto;
+    }
+  
+    .app-development-right h2 {        
+      font-size: 1.2rem;
+    }
+  
+    .app-development-right p {
+      font-size: 1rem;
+    }
+  
+    .app-development-bottom h2 {
+      font-size: 1.2rem;
+    }
+  
+    .app-development-bottom p {
+      font-size: 1rem;
+    }
+    .shade{
+      content: " ";
+     width: 10rem;
+     height: 10rem;
+     border-radius: 10.125rem;
+     background: #73a8e8;
+     position: absolute;
+     z-index: -1;
+     filter:blur(200px);
+ }
+ 
+
+  }

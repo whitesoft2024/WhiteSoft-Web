@@ -7,7 +7,8 @@ const Mobile = () => {
       <h1>App Development</h1>
       <div className="app-development-content">
         <div className="app-development-left">
-          <img src=" " alt="App Development" className="app-image" />
+          <div className="shade"></div>
+          <img src="./mobile.png " alt="App Development" className="app-image" />
         </div>
         <div className="app-development-right">
           <h2>Expert App Developers</h2>

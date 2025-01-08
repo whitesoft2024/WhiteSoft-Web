@@ -11,8 +11,9 @@ const Digital = () => {
       </p>
       <div className="digital-marketing-content">
         <div className="digital-marketing-left">
+          <div className="shade"></div>
           <img
-            src=" "
+            src="./digital.png"
             alt="Digital Marketing"
             className="digital-marketing-image"
           />
@@ -34,7 +35,9 @@ const Digital = () => {
             seeking to boost your organic search rankings or launch targeted
             social media campaigns, we have got you covered.
           </p>
-
+        </div>
+        </div>
+        <div className="digital-marketing-bottom">
           <h2>SEO Agency in Kerala</h2>
           <p>
             We are not just an SEO company; we are your trusted SEO agency. Our
@@ -67,7 +70,7 @@ const Digital = () => {
           </p>
         </div>
       </div>
-    </div>
+    
   );
 };
 

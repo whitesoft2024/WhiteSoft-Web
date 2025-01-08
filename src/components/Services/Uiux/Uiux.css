@@ -4,7 +4,16 @@
     color: #333;
     background-color: #f9f9f9;
   }
-  
+  .shade{
+     content: " ";
+    width: 15rem;
+    height: 15rem;
+    border-radius: 15.125rem;
+    background: #73a8e8;
+    position: absolute;
+    z-index: -1;
+    filter:blur(200px);
+}
   .uiux-container h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
@@ -34,9 +43,7 @@
   .uiux-image {
     width: 100%;
     height: auto;
-    object-fit: cover;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    
   }
   
   .uiux-right {
@@ -54,4 +61,43 @@
     line-height: 1.8;
     color: #444;
   }
+  @media screen and (max-width: 768px) {
+    .uiux-container {
+      padding: 1rem;
+    }
   
+    .uiux-container h1 {
+      font-size: 2rem;
+    }
+  
+    .uiux-content {
+      flex-direction: column;
+      gap: 1rem;
+    }   
+  
+    .uiux-image {
+      margin-top: 0;
+      width: 100%;
+      height: auto;
+    }
+  
+    .uiux-right h2 {        
+      font-size: 1.2rem;
+    }
+  
+    .uiux-right p {
+      font-size: 1rem;
+    } 
+    
+    .shade{
+     content: " ";
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10.125rem;
+    background: #73a8e8;
+    position: absolute;
+    z-index: -1;
+    filter:blur(200px);
+}
+
+  }

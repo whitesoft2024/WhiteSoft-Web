@@ -12,7 +12,12 @@ const Web = () => {
       </p>
       <div className="web-dev-content">
         <div className="web-dev-left">
-          <img src=" " alt="Web Development" className="web-dev-image" />
+          <div className="shade"></div>
+          <img
+            src="./webdev.png"
+            alt="Web Development"
+            className="web-dev-image"
+          />
         </div>
         <div className="web-dev-right">
           <h2>Web Design Services</h2>
@@ -30,32 +35,34 @@ const Web = () => {
             technologies to build websites that are not only beautiful but also
             functional and highly responsive.
           </p>
+        </div></div>
+          <div className="web-dev-bottom">
+            <h2>Web Marketing</h2>
+            <p>
+              In today's competitive digital landscape, having a website is not
+              enough. We provide web marketing services to help you reach your
+              target audience and drive traffic to your site. From SEO
+              optimization to social media marketing, we have you covered.
+            </p>
 
-          <h2>Web Marketing</h2>
-          <p>
-            In today's competitive digital landscape, having a website is not
-            enough. We provide web marketing services to help you reach your
-            target audience and drive traffic to your site. From SEO
-            optimization to social media marketing, we have you covered.
-          </p>
+            <h2>SEO-Friendly Websites</h2>
+            <p>
+              We optimize every website for visibility in the online world. Our
+              SEO experts ensure your website ranks well for relevant keywords,
+              attracting organic traffic and growing your online presence.
+            </p>
 
-          <h2>SEO-Friendly Websites</h2>
-          <p>
-            We optimize every website for visibility in the online world. Our
-            SEO experts ensure your website ranks well for relevant keywords,
-            attracting organic traffic and growing your online presence.
-          </p>
-
-          <h2>Responsive Design</h2>
-          <p>
-            With the increasing number of mobile users, having a responsive
-            website is crucial. Whitesoft Ads ensures your website looks and
-            functions flawlessly on all devices, providing a seamless user
-            experience.
-          </p>
+            <h2>Responsive Design</h2>
+            <p>
+              With the increasing number of mobile users, having a responsive
+              website is crucial. Whitesoft Ads ensures your website looks and
+              functions flawlessly on all devices, providing a seamless user
+              experience.
+            </p>
+          </div>
         </div>
-      </div>
-    </div>
+      
+    
   );
 };
 

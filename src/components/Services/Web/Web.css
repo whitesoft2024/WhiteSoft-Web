@@ -33,10 +33,9 @@
 
 .web-dev-image {
   width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 10px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  
+  
 }
 
 .web-dev-right {
@@ -53,4 +52,71 @@
   margin-top: 0.5rem;
   line-height: 1.8;
   color: #444;
+}
+.shade{
+     content: " ";
+    width: 15rem;
+    height: 15rem;
+    border-radius: 15.125rem;
+    background: #73a8e8;
+    position: absolute;
+    z-index: -1;
+    filter:blur(200px);
+}
+.web-dev-bottom {
+  margin-top: 2rem;
+}
+
+.web-dev-bottom h2 {
+  margin-top: 1.5rem;
+  color: #000;
+  font-size: 1.5rem;
+}
+
+.web-dev-bottom p {
+  margin-top: 0.5rem;
+  line-height: 1.8;
+  color: #444;
+} 
+
+@media screen and (max-width: 768px) {
+  .web-dev-container {
+    padding: 1rem;
+  }
+
+  .web-dev-container h1 {
+    font-size: 2rem;
+  }
+
+  .web-dev-content {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .web-dev-image {
+    margin-top: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .web-dev-right h2 {        
+    font-size: 1.2rem;
+  }
+
+  .web-dev-right p {
+    font-size: 1rem;
+  } 
+  
+  .shade{
+     content: " ";
+    width: 15rem;
+    height: 15rem;
+    border-radius: 15.125rem;
+    background: #73a8e8;
+    position: absolute;
+    z-index: -1;
+    filter:blur(200px);
+  }
+
+  
 }
