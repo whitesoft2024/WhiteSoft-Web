@@ -1,7 +1,7 @@
 import React from "react";
 import "./Web.css";
 
-const WebDevelopment = () => {
+const Web = () => {
   return (
     <div className="web-dev-container">
       <h1>Web Development</h1>
@@ -59,4 +59,4 @@ const WebDevelopment = () => {
   );
 };
 
-export default WebDevelopment;
+export default Web;
